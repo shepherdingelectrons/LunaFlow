@@ -10,15 +10,15 @@ Circuit diagrams for this project can be found here:
 https://github.com/shepherdingelectrons/LunaFlow/tree/master/Circuits
 
 ## Incubator
-**Incubator.xodball** =  XOD script to run Incubator
+[Incubator/Incubator.xodball](Incubator/Incubator.xodball) =  XOD script to run Incubator
 
-**Pi_ThingSpeak.py** = Python script (executed on Raspberry Pi) to log data from incubator and broadcast data to ThingSpeak
+[Incubator/Pi_ThingSpeak.py](Incubator/Pi_ThingSpeak.py) = Python script (executed on Raspberry Pi) to log data from incubator and broadcast data to ThingSpeak
 
 
 ## Calibration
-**Thermometer Calibration.xodball** = XOD script thermistor calibration
+[Calibration/Thermometer Calibration.xodball](Calibration/Thermometer Calibration.xodball) = XOD script thermistor calibration
 
-**Pi_RecordTempData.py** = Python script (executed on Raspberry Pi) to log data for thermistor calibration
+[Calibration/Pi_RecordTempData.py](Calibration/Thermometer Calibration.xodball) = Python script (executed on Raspberry Pi) to log data for thermistor calibration
 
 
 

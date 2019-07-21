@@ -1,5 +1,6 @@
 # LunaFlow
 ![LunaFlow logo](https://github.com/shepherdingelectrons/LunaFlow/blob/master/lunaflow_logo.jpg)
+
 Code repository for LunaFlow Biomaker bioincubator, based on the OpenSmart Rich UNO R3 board (http://arduinolearning.com/hardware/look-open-smart-rich-uno-r3-atmega328p-development-kit.php)
 
 Please see the LunaFlow's hackster page for further details and instructions:

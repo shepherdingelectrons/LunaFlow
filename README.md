@@ -16,7 +16,7 @@ https://github.com/shepherdingelectrons/LunaFlow/tree/master/Circuits
 
 
 ## Calibration
-[Calibration/Thermometer Calibration.xodball](Calibration/Thermometer Calibration.xodball) = XOD script thermistor calibration
+[Calibration/Thermometer Calibration.xodball](Calibration/Thermometer%20Calibration.xodball) = XOD script thermistor calibration
 
 [Calibration/Pi_RecordTempData.py](Calibration/Pi_RecordTempData.py) = Python script (executed on Raspberry Pi) to log data for thermistor calibration
 

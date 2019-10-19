@@ -168,17 +168,6 @@
             "pinKey": "__out__"
           }
         },
-        "HJ1fZxWtB": {
-          "id": "HJ1fZxWtB",
-          "input": {
-            "nodeId": "BkNyiCgtB",
-            "pinKey": "__in__"
-          },
-          "output": {
-            "nodeId": "SyDlXFRxYB",
-            "pinKey": "BkbiCl7v7"
-          }
-        },
         "HJulmYAlFB": {
           "id": "HJulmYAlFB",
           "input": {
@@ -199,6 +188,17 @@
           "output": {
             "nodeId": "r1-9noAgtS",
             "pinKey": "B1gN80uHvk-"
+          }
+        },
+        "HkXAfTOFH": {
+          "id": "HkXAfTOFH",
+          "input": {
+            "nodeId": "BkNyiCgtB",
+            "pinKey": "__in__"
+          },
+          "output": {
+            "nodeId": "SyDlXFRxYB",
+            "pinKey": "BJZls0g7DQ"
           }
         },
         "Hko55qCgKB": {
@@ -265,17 +265,6 @@
           "output": {
             "nodeId": "rkyVpReYH",
             "pinKey": "BkQzLCurwJZ"
-          }
-        },
-        "SJPe0JZtB": {
-          "id": "SJPe0JZtB",
-          "input": {
-            "nodeId": "rJ9cqRxtB",
-            "pinKey": "rJUjrCTUb-$1"
-          },
-          "output": {
-            "nodeId": "BJqppybKr",
-            "pinKey": "ryVmUAOrvkb"
           }
         },
         "SJ_hgy-YB": {
@@ -454,39 +443,6 @@
             "pinKey": "__out__"
           }
         },
-        "rkNeAkZKr": {
-          "id": "rkNeAkZKr",
-          "input": {
-            "nodeId": "rJ9cqRxtB",
-            "pinKey": "rygjH06LW-$1"
-          },
-          "output": {
-            "nodeId": "rJ8J0y-tH",
-            "pinKey": "B1x2RV3eZ"
-          }
-        },
-        "rkhVho_tH": {
-          "id": "rkhVho_tH",
-          "input": {
-            "nodeId": "rktE2odKr",
-            "pinKey": "HJAq-A_8-"
-          },
-          "output": {
-            "nodeId": "rJ9cqRxtB",
-            "pinKey": "rkWHDAW_f"
-          }
-        },
-        "rkpyajdKB": {
-          "id": "rkpyajdKB",
-          "input": {
-            "nodeId": "SkjyTs_Kr",
-            "pinKey": "__in__"
-          },
-          "output": {
-            "nodeId": "rktE2odKr",
-            "pinKey": "r1yhZRd8W"
-          }
-        },
         "ry-STidFH": {
           "id": "ry-STidFH",
           "input": {
@@ -534,6 +490,7 @@
       },
       "nodes": {
         "B147_oOKr": {
+          "description": "Brightness level for lights, between 0-255",
           "id": "B147_oOKr",
           "position": {
             "x": 15,
@@ -562,15 +519,6 @@
             "units": "slots"
           },
           "type": "xod/core/or"
-        },
-        "BJqppybKr": {
-          "id": "BJqppybKr",
-          "position": {
-            "x": 31,
-            "y": 1,
-            "units": "slots"
-          },
-          "type": "xod/core/boot"
         },
         "Bk92iRgFr": {
           "boundLiterals": {
@@ -663,6 +611,7 @@
           "type": "xod/patch-nodes/from-bus"
         },
         "HJPM90etS": {
+          "description": "Value in hours when the lights should turn OFF",
           "id": "HJPM90etS",
           "label": "HOUR_OFF",
           "position": {
@@ -744,7 +693,7 @@
         },
         "S1Ecq9CxYB": {
           "id": "S1Ecq9CxYB",
-          "label": "L_ON",
+          "label": "L_OFF",
           "position": {
             "x": 29,
             "y": 1,
@@ -842,15 +791,6 @@
           },
           "type": "xod/core/or"
         },
-        "SkjyTs_Kr": {
-          "id": "SkjyTs_Kr",
-          "position": {
-            "x": 23,
-            "y": 6,
-            "units": "slots"
-          },
-          "type": "xod/patch-nodes/output-number"
-        },
         "SksK0ybKH": {
           "id": "SksK0ybKH",
           "label": "LNUM",
@@ -863,7 +803,7 @@
         },
         "SyDcc50eFB": {
           "id": "SyDcc50eFB",
-          "label": "L_OFF",
+          "label": "L_ON",
           "position": {
             "x": 27,
             "y": 1,
@@ -930,7 +870,7 @@
         },
         "r1Z5cqAlFH": {
           "boundLiterals": {
-            "B1x2RV3eZ": "0"
+            "B1x2RV3eZ": "1"
           },
           "id": "r1Z5cqAlFH",
           "position": {
@@ -951,7 +891,7 @@
         },
         "r1mqcqRgFS": {
           "boundLiterals": {
-            "B1x2RV3eZ": "1"
+            "B1x2RV3eZ": "0"
           },
           "id": "r1mqcqRgFS",
           "position": {
@@ -961,20 +901,7 @@
           },
           "type": "xod/core/constant-number"
         },
-        "rJ8J0y-tH": {
-          "boundLiterals": {
-            "B1x2RV3eZ": "0"
-          },
-          "id": "rJ8J0y-tH",
-          "position": {
-            "x": 30,
-            "y": 1,
-            "units": "slots"
-          },
-          "type": "xod/core/constant-number"
-        },
         "rJ9cqRxtB": {
-          "arityLevel": 2,
           "id": "rJ9cqRxtB",
           "position": {
             "x": 26,
@@ -1002,15 +929,6 @@
             "units": "slots"
           },
           "type": "xod/patch-nodes/from-bus"
-        },
-        "rktE2odKr": {
-          "id": "rktE2odKr",
-          "position": {
-            "x": 23,
-            "y": 4,
-            "units": "slots"
-          },
-          "type": "xod/core/count"
         },
         "rkvSs0lFS": {
           "id": "rkvSs0lFS",
@@ -1054,6 +972,7 @@
           "type": "xod/patch-nodes/from-bus"
         },
         "ry6Z9CgKB": {
+          "description": "Value in hours when the lights should turn ON",
           "id": "ry6Z9CgKB",
           "label": "HOUR_ON",
           "position": {
@@ -1099,6 +1018,34 @@
           "size": {
             "height": 1,
             "width": 4,
+            "units": "slots"
+          }
+        },
+        "B1wimaOtB": {
+          "content": "(5) Switch the lights on or off, with a brightness determined by the potentiometer",
+          "id": "B1wimaOtB",
+          "position": {
+            "x": 24,
+            "y": 2,
+            "units": "slots"
+          },
+          "size": {
+            "height": 1,
+            "width": 6,
+            "units": "slots"
+          }
+        },
+        "BJkJVa_tS": {
+          "content": "(6) Output some data to UART to a Raspberry Pi for broadcast to ThingSpeak",
+          "id": "BJkJVa_tS",
+          "position": {
+            "x": 36,
+            "y": -1,
+            "units": "slots"
+          },
+          "size": {
+            "height": 1,
+            "width": 6,
             "units": "slots"
           }
         },
@@ -1170,6 +1117,17 @@
           "output": {
             "nodeId": "r1qSJxvGr",
             "pinKey": "SyBtREhlW"
+          }
+        },
+        "B1GmETdKr": {
+          "id": "B1GmETdKr",
+          "input": {
+            "nodeId": "Skogb3dtB",
+            "pinKey": "rJJHNrVuM-$1"
+          },
+          "output": {
+            "nodeId": "SJl7Nputr",
+            "pinKey": "__out__"
           }
         },
         "B1SeV5xYB": {
@@ -1553,8 +1511,8 @@
         },
         "BkPvykbKH": {
           "boundLiterals": {
-            "HJPM90etS": "50",
-            "ry6Z9CgKB": "9"
+            "HJPM90etS": "19",
+            "ry6Z9CgKB": "8"
           },
           "id": "BkPvykbKH",
           "position": {
@@ -1743,6 +1701,16 @@
           },
           "type": "xod/patch-nodes/from-bus"
         },
+        "SJl7Nputr": {
+          "id": "SJl7Nputr",
+          "label": "STATE",
+          "position": {
+            "x": 41,
+            "y": 0,
+            "units": "slots"
+          },
+          "type": "xod/patch-nodes/from-bus"
+        },
         "SkK1Qq1Zr": {
           "id": "SkK1Qq1Zr",
           "label": "SET0",
@@ -1764,6 +1732,7 @@
           "type": "xod/patch-nodes/from-bus"
         },
         "Skogb3dtB": {
+          "arityLevel": 2,
           "boundLiterals": {
             "rJGQNB4df": "\",\""
           },

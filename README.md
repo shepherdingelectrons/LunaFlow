@@ -6,11 +6,17 @@ Code repository for LunaFlow Biomaker bioincubator, based on the OpenSmart Rich 
 Please see the LunaFlow's hackster page for further details and instructions:
 https://www.hackster.io/lunaflow/lunaflow-bioluminescent-plankton-for-3d-flow-visualisation-d60cbe
 
+We have provided code for two incubators; our main, largest incubator, and a smaller incubator using a polystyrene box.
+
 Circuit diagrams for this project can be found here:
 https://github.com/shepherdingelectrons/LunaFlow/tree/master/Circuits
 
+
+
 ## Incubator
-[Incubator/Incubator.xodball](Incubator/Incubator.xodball) =  XOD script to run Incubator
+[Incubator/Incubator.xodball](Incubator/Incubator.xodball) =  XOD script to run main incubator
+
+[Incubator/Small_Incubator.xodball](Incubator/Small_Incubator.xodball) = XOD script to run smaller, polystryene box incubator
 
 [Incubator/Pi_ThingSpeak.py](Incubator/Pi_ThingSpeak.py) = Python script (executed on Raspberry Pi) to log data from incubator and broadcast data to ThingSpeak
 

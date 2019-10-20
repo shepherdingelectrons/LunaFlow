@@ -1039,8 +1039,8 @@
           "content": "(6) Output some data to UART to a Raspberry Pi for broadcast to ThingSpeak",
           "id": "BJkJVa_tS",
           "position": {
-            "x": 36,
-            "y": -1,
+            "x": 40,
+            "y": 3,
             "units": "slots"
           },
           "size": {
@@ -1193,17 +1193,6 @@
           },
           "output": {
             "nodeId": "HkyxuiOYB",
-            "pinKey": "__out__"
-          }
-        },
-        "H1JQW2dKr": {
-          "id": "H1JQW2dKr",
-          "input": {
-            "nodeId": "Skogb3dtB",
-            "pinKey": "rJJHNrVuM"
-          },
-          "output": {
-            "nodeId": "SJOGZndFB",
             "pinKey": "__out__"
           }
         },
@@ -1405,6 +1394,17 @@
             "pinKey": "__out__"
           }
         },
+        "rJbSOW5tH": {
+          "id": "rJbSOW5tH",
+          "input": {
+            "nodeId": "Skogb3dtB",
+            "pinKey": "rJJHNrVuM"
+          },
+          "output": {
+            "nodeId": "SJOGZndFB",
+            "pinKey": "__out__"
+          }
+        },
         "rJl9L9lKS": {
           "id": "rJl9L9lKS",
           "input": {
@@ -1534,7 +1534,7 @@
         },
         "H1at7zCgS": {
           "boundLiterals": {
-            "ByfGSDjQE": "22"
+            "ByfGSDjQE": "20"
           },
           "id": "H1at7zCgS",
           "position": {
@@ -1619,7 +1619,7 @@
         },
         "HkljCJ2dtr": {
           "boundLiterals": {
-            "B13SCNhl-": "10"
+            "B13SCNhl-": "60"
           },
           "id": "HkljCJ2dtr",
           "position": {
@@ -1872,7 +1872,7 @@
         },
         "ryxa4G0xH": {
           "boundLiterals": {
-            "ByfGSDjQE": "18"
+            "ByfGSDjQE": "17"
           },
           "id": "ryxa4G0xH",
           "position": {
